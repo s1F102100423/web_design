@@ -19,7 +19,7 @@ const Component1 = ({ changetext }) => (
           <img title='サイト全体について' className="col-4 icon" id="icon0" onClick={() => changetext(0)} src="./img/TitleLogo.png" style={{ backgroundColor: 'gray' }} alt="Icon 0" />
           <img title='バナーについて' className="col-3 icon" id="icon1" onClick={() => changetext(1)} src="./img/Ribon.png" alt="Icon 1" />
           <img title='カードについて' className="col-4 icon" id="icon2" onClick={() => changetext(2)} src="./img/Cancer.png" alt="Icon 2" />
-          <p id="text"><span>サイト全体について</span><br />このサイトは、2023年11月4日～5日に行われた赤羽台祭にて公演が行われた「ほしをさがして」の特設サイトです。情報をわかりやすく伝えるため、1ページに全てまとめています。</p>
+          <p id="text"><span>サイト全体について</span><br />このサイトは、2023年11月4日～5日に行われた赤羽台祭にて公演が行われた「ほしをさがして」の特設サイトです。公演の情報や内容を告知・紹介するために、サークル員がUIデザインをし、実装面を私が担当しました。</p>
           <div>
           <p className='lang'>開発環境：Node.js, GitHub</p>
         <p className='lang'>開発言語：HTML, CSS(bootstrap), JavaScript(jQuery)</p>
@@ -52,7 +52,7 @@ const Component2 = ({ changetext }) => (
         <img title='サイト全体について' className="col-4 icon" id="icon0" src="./img/TitleLogo.png" style={{ backgroundColor: 'gray' }} alt="Icon 0" onClick={() => changetext(0)} />
         <img title='バナーについて' className="col-3 icon" id="icon1" src="./img/Ribon.png" alt="Icon 1" onClick={() => changetext(1)} />
         <img title='カードについて' className="col-4 icon" id="icon2" src="./img/Cancer.png" alt="Icon 2" onClick={() => changetext(2)} />
-        <p id="text"><span>サイト全体について</span><br />このサイトは、2023年11月4日～5日に行われた赤羽台祭にて公演が行われた「ほしをさがして」の特設サイトです。情報をわかりやすく伝えるため、1ページに全てまとめています。</p>
+        <p id="text"><span>サイト全体について</span><br />このサイトは、2023年11月4日～5日に行われた赤羽台祭にて公演が行われた「ほしをさがして」の特設サイトです。公演の情報や内容を告知・紹介するために、サークル員がUIデザインをし、実装面を私が担当しました。</p>
         <p className='lang'>開発環境：Node.js, GitHub</p>
         <p className='lang'>開発言語：HTML, CSS(bootstrap), JavaScript(jQuery)</p>
       </div>
